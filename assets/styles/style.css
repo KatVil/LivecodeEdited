@@ -1,0 +1,362 @@
+header,
+footer{
+    flex: 0 0 content;
+}
+
+h1, h2.sec{/* Thrivetalk */
+    font-family: 'Larsseit', sans-serif;
+    font-size: 30px;
+    letter-spacing: -0.035em;
+    color: #62D0DF;}
+
+h1{display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 290px;
+    padding-bottom: 20px;
+    margin-left: 170px;
+    }
+
+h2.sec{display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+margin-bottom: 500px;
+}
+
+
+main{
+    flex:1;
+    display:flex;
+    flex-direction: row;
+    justify-content: stretch;
+    min-height: 100vh;
+    width: 100vh;
+}
+
+body{
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+}
+
+nav.menu { 
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 15;
+    padding: 10px 10px 10px;
+    gap: 15px;
+    font-family: 'Larsseit', sans-serif;
+    font-size: 12px;
+    line-height: 10px;
+    color: #22356F;
+}
+
+
+aside{
+    width: 20 vh;
+}
+
+section{
+    flex: 0;
+}
+
+h2{
+display: flex;
+justify-content:center;
+font-family: 'Larsseit', sans-serif;
+font-size: 36px;
+letter-spacing: -0.006em;
+color: #FFFFFF;
+}
+
+h4{  
+    display:flex;
+    font-family: 'Larsseit', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+h5{
+display: flex;
+font-weight: lighter;
+font-family: 'Larsseit', sans-serif;
+font-size: 16px;
+letter-spacing: 0.06em;
+margin: 25 25 25;
+padding-bottom: 34;
+color: #22356F;
+}
+
+.sec{
+display: flex;
+justify-content: flex-start;
+align-items:flex-start;
+}
+
+.button{
+display:flex;
+align-items: center;
+justify-content: flex-start;
+flex-shrink: 1;
+margin: 0;
+padding: 0;
+background: #62D0DF;
+border-radius: 45px;
+}
+.orangerectangle{
+display:flex;
+justify-content: flex-end;
+align-items: center;
+
+background: #F9B640;
+}
+.orangeboxtext{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Larsseit', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.1em;    
+    color: #FFFFFF;}
+
+    .orangetext{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Larsseit', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #FAB63E;
+    }
+
+.rectangle{
+    display: flex;
+    flex:0;
+    background: #F4F9E2;
+    width: 100%;
+}
+
+.contact{position: absolute;
+    align-items: baseline;
+    flex-direction: initial;
+    flex-shrink: 1;
+    margin: 5;
+padding: 0;
+font-family: 'Larsseit', sans-serif;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+border:0;
+background-color: #22356F00;
+text-decoration: none;
+color: #FFFFFF;}
+
+.text0{
+
+position: absolute;
+width: 484px;
+height: 167px;
+left: 179px;
+top: 305px;
+
+font-family: 'Larsseit', sans-serif;
+font-size: 48px;
+line-height: 53px;
+letter-spacing: -0.035em;
+
+color: #22356F;
+}
+.text1{
+position: absolute;
+width: 469px;
+height: 161px;
+left: 179px;
+top: 491px;
+margin:auto;
+font-family: 'Larsseit', sans-serif;
+font-size: 24px;
+line-height: 42px;
+
+color: #22356F;
+}
+.img1{
+position: absolute;
+width: 707.71px;
+height: 444.93px;
+left: 729.93px;
+top: -70.66px;
+
+background: #EDFDFF;
+border-radius: 312.159px;
+transform: matrix(-0.5, 0.87, 0.87, 0.5, 0, 0);
+}
+.img2{
+position: absolute;
+width: 522px;
+height: 607px;
+left: 718px;
+top: 62px;
+background: url(./assets/images/linkedin-sales-navigator-406825.png);
+}
+.item0{
+text-decoration: none;
+font-family: 'Larsseit', sans-serif;
+    font-size: 12px;}
+
+.rectangle1{position: absolute;
+width: 1437px;
+height: 607px;
+left: 1px;
+top: 842px;
+width: 100%;
+background: #62D0DF;}
+
+.article1{
+position: absolute;
+display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+text-align: left;
+top: 330px;
+margin:100 0 10;
+padding: 100 0 10;
+width: 555;
+height:235;
+/*width: 1437px;
+height: 607px;
+left: 1px;
+top: 842px;*/
+font-family: 'Larsseit', sans-serif;
+font-size: 24px;
+line-height: 35px;
+
+color: #FFFFFF;
+}
+
+.img3{
+position: absolute;
+width: 522px;
+height: 607px;
+left: 918px;
+top: 842px;
+background: url(./assets/images/christopher-campbell-40367.png);
+}
+.article2{
+position: absolute;
+width: 592px;
+height: 210px;
+left: 424px;
+top: 1596px;
+
+font-family: 'Larsseit', sans-serif;
+font-size: 24px;
+line-height: 34px;
+letter-spacing: 0.005em;
+
+color: #22356F;
+
+}
+.box1{
+position: absolute;
+width: 360px;
+height: 360px;
+left: 0px;
+top: 1927px;
+
+background: #FFE2DE;
+}
+.box2{
+position: absolute;
+width: 360px;
+height: 360px;
+left: 360px;
+top: 1927px;
+
+background: #C4E769;
+}
+.box3{
+position: absolute;
+width: 360px;
+height: 360px;
+left: 720px;
+top: 1927px;
+
+background: #62D0DF;
+}
+.box4{
+position: absolute;
+width: 360px;
+height: 360px;
+left: 1078px;
+top: 1927px;
+
+background: #0052C1;
+}
+.circle1, .circle2, .circle3, .circle4{
+position: absolute;
+width: 9px;
+height: 9px;
+
+top: 2034.25px;
+
+background: #E9B730;
+}
+.circle1{
+left: 54px;
+}
+.circle1{
+left: 414px;
+}
+.circle1{
+left: 774px;
+}
+.circle1{
+left: 1132px;
+}
+.theme1, .theme2, .theme3, .theme4{
+position: absolute;
+width: 232px;
+height: 54px;
+left: 78px;
+top: 2022px;
+
+font-family: 'Larsseit', sans-serif;
+font-size: 32px;
+line-height: 34px;
+letter-spacing: -0.006em;
+
+color: #FFFFFF;
+}
+.theme1{
+    width: 360px;
+    height: 360px;
+    left: 0px;
+    top: 1927px;
+    
+}
+.theme2{
+    width: 360px;
+    height: 360px;
+    left: 360px;
+    top: 1927px;
+}
+.theme3{
+    width: 360px;
+    height: 360px;
+    left: 720px;
+    top: 1927px;
+}
+.theme4{
+    width: 360px;
+height: 360px;
+left: 1078px;
+top: 1927px;
+}
+.menu a:hover, .contact:hover{
+text-decoration: underline;
+}
