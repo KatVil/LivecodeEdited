@@ -82,8 +82,8 @@ a{
         display:flex;
         justify-content: center;
         align-items: flex-end;
-        margin-left:30vw;
-        margin-top:20vh;
+        margin-left:1vw;
+        margin-top:5vh;
         font-family: 'Larsseit', sans-serif;
         font-size: 1.5em;
         line-height: 120%;
@@ -91,7 +91,6 @@ a{
         font-weight: lighter;
         color: rgba(34, 53, 111, 0.5);
     } 
-
 nav.menu { 
         display: flex;
         justify-content: flex-end;
@@ -163,16 +162,16 @@ nav.menu {
         font-weight: normal;
         line-height: 100%;
         color: #22356F;
-        }     
-        .img1{
+    }     
+    .img1{
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start;
         margin-top: -10vh;
         margin-left: 30vw;
-}      
-.button__orange{
+    }      
+    .button__orange{
         display:flex;
         justify-content:flex-start;
         align-items: center;
@@ -183,9 +182,6 @@ nav.menu {
         padding-right: 3vw;
         padding-left: 3vw;
         margin-left: -1vw;
-       /*
-        
-       */
     }      
     .title__description-button-orange{
         display:flex;
@@ -202,47 +198,48 @@ nav.menu {
         justify-content:flex-start;
         align-items: center;
         margin-top: 53vh;
-        margin-right:10vw;
-        /*
-        */
+        margin-right:20vw;
         font-family: 'Larsseit', sans-serif;
         font-size: 1.2em;
         font-weight: bolder;
         letter-spacing: 0.1em;
         color: #FAB63E;
-        }
-        .flexcontainer-blue{
-    display: flex;
-    justify-content: flex-start;
-    align-items:flex-end;
-   /* margin-top: 20vh;*/
-    width: 100vw;
-    background: #62D0DF;}
+    }
+    .flexcontainer-blue{
+        display: flex;
+        justify-content: flex-start;
+        align-items:flex-end;
+        /* margin-top: 20vh;*/
+        width: 100vw;
+        background: #62D0DF;
+    }
     .flexcontainer-white{
         display: flex;
         justify-content: flex-start;
         align-items:flex-end;
-       /* margin-top: 20vh;*/
+        /* margin-top: 20vh;*/
         width: 100vw;
-        background: #ffffff;}
-
+        background: #ffffff;
+    }
+    .thrive__about{
+        display:flex;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top:-50vh;
+        margin-left:10vw;
+        padding-right:10vw;
+        font-family: 'Larsseit', sans-serif;
+        font-size: 2em;
+        line-height: 100%;
+        letter-spacing: 0.005em;
+        color: #22356F; 
+    }
     .menu a:hover, .button__orange:hover, .contact:hover, .title__description-orange:hover{
             text-decoration: underline;
             color: gray;
             cursor: pointer;
     }
-    
-    /*    
-
-  
-
-
-
-
-
-        
-
-    
+    /*     
 
 /*
 
