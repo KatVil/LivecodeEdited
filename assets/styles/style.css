@@ -42,13 +42,16 @@ a{
     }
     .h2__white{
         display: flex;
-        justify-content: center;
+        flex-direction:row;
+        justify-content: flex-start;
         align-items: flex-start;
-        margin-top: 10vh;
-        margin-left: 10vw;
+        margin-top: 0vh;
+        margin-bottom: 30vh;
+        margin-left:10vw;
         font-family: 'Larsseit', sans-serif;
         font-size: 2.5em;
         font-weight: bolder;
+        line-height: 120%;
         letter-spacing: -0.035em;
         color:#FFFFFF
     }
@@ -57,7 +60,9 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        margin-top: -10vh;
+        margin-top: -25vh;
+        margin-left:-5vw;        
+        padding-right:10vw;
         font-family: 'Larsseit', sans-serif;
         font-size: 2.5em;
         font-weight: normal;
@@ -215,6 +220,7 @@ nav.menu {
     }
     .flexcontainer-blue{
         display: flex;
+        flex-direction: row;
         justify-content: flex-start;
         align-items:flex-end;
         /* margin-top: 20vh;*/
@@ -223,6 +229,7 @@ nav.menu {
     }
     .flexcontainer-blue_two{
         display: flex;
+        flex-direction: column;
         justify-content: flex-start;
         align-items:flex-end;
         /* margin-top: 20vh;*/
@@ -234,6 +241,16 @@ nav.menu {
         justify-content: flex-start;
         align-items:flex-end;
         /* margin-top: 20vh;*/
+        width: 100vw;
+        background: #ffffff;
+    }
+    .flexcontainer-white_two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:flex-end;
+        margin-top: 40vh;
+        padding-right: 15vw;;
         width: 100vw;
         background: #ffffff;
     }
@@ -249,6 +266,11 @@ nav.menu {
         line-height: 100%;
         letter-spacing: 0.005em;
         color: #22356F; 
+    }
+    .img3{
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 2vw;
     }
     .menu a:hover, .button__orange:hover, .contact:hover, .title__description-orange:hover{
             text-decoration: underline;
