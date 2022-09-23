@@ -6,7 +6,7 @@ a{
     display:flex;
     background-color: #F4F9E2;
 }
-.flexcontainer__yellow{
+.flexcontainer_yellow{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -14,10 +14,6 @@ a{
     margin-top: -5vh;
     background-color: #F4F9E2;
 }
-/*main{
-    display: flex;
-    flex-direction: row;
-}*/
 .title__header-name, .title__name{
     font-family: 'Larsseit', sans-serif;
     font-size: 2.5em;
@@ -46,14 +42,14 @@ a{
         flex-wrap: nowrap;
         justify-content: flex-start;
         align-items: flex-start;
-        margin-top: -20vh;
-        margin-bottom: 35vh;
+        margin-top: 0vh;
+        margin-bottom: 45vh;
         margin-left: 10vw;
         font-family: 'Larsseit', sans-serif;
-        font-size: 2.5em;
-        font-weight: bolder;
+        font-size: 1.8em;
+        font-weight:lighter;
         line-height: 120%;
-        letter-spacing: -0.035em;
+        letter-spacing: 0.06em;
         color:#FFFFFF
     }
     .title__second_description{
@@ -61,7 +57,7 @@ a{
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        margin-top: -30vh;
+        margin-top: -39vh;
         margin-left:-5vw;   margin-bottom: 5vh;     
         padding-right:14vw;
         padding-left: 10VW;
@@ -181,7 +177,9 @@ a{
         justify-content: flex-start;
         align-items: flex-start;
         margin-top: -67vh;
-        margin-left: 50vw;
+        margin-left: 55.5vw;
+        margin-bottom:0vw;
+        background-color: #F4F9E2;
     }      
     .button__client{
         display:flex;
@@ -197,6 +195,7 @@ a{
     .flexcontainer__button{
         display: flex;
         width:100vw;
+        background-color: #F4F9E2;
     }      
     .button__client_description{
         display:flex;
@@ -220,7 +219,7 @@ a{
         letter-spacing: 0.1em;
         color: #FAB63E;
     }
-    .flexcontainer__blue{
+    .flexcontainer_blue{
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -229,16 +228,16 @@ a{
         width: 100vw;
         background: #62D0DF;
     }
-    .flexcontainer__blue-two{
+    .flexcontainer_blue-two{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items:flex-end;
         /* margin-top: 20vh;*/
-        width: 55vw;
+        width: 45vw;
         background: #62D0DF;
     }
-    .flexcontainer__white{
+    .flexcontainer_white{
         display: flex;
         justify-content: flex-start;
         align-items:flex-end;
@@ -246,7 +245,7 @@ a{
         width: 100vw;
         background: #ffffff;
     }
-    .flexcontainer__white-two{
+    .flexcontainer_white-two{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -457,7 +456,7 @@ a{
                 letter-spacing: 0.1em;
                 color: #FAB63E;}
 
-        .flexcontainer__blue{
+        .flexcontainer_blue{
             display: flex;
             flex-direction: row;
             justify-content: flex-start;
@@ -485,7 +484,7 @@ a{
             color:#FFFFFF
     
         }
-        .flexcontainer__white-two{
+        .flexcontainer_white-two{
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -592,7 +591,7 @@ a{
                     .gridcontainer-footer{
                         display: none;
                     } }
-   /* @media screen and (min-width:2000px){
+/* @media screen and (min-width:2000px){
         .title{
             display: flex;
             flex-direction: row;
@@ -626,118 +625,4 @@ a{
                 color: #22356F;
             }  
     }
-    /*     
-
-/*
-
-
-
-h2{
-display: flex;
-justify-content:center;
-font-family: 'Larsseit', sans-serif;
-font-size: 36px;
-letter-spacing: -0.006em;
-color: #FFFFFF;
-}*/
-
-/*
-.button{
-display:flex;
-align-items: center;
-justify-content: flex-start;
-flex-shrink: 1;
-margin: 0;
-padding: 0;
-background: #62D0DF;
-border-radius: 45px;
-}
-
-    /*.img2{
-            display: flex;
-            justify-content: flex-start;
-            align-content: flex-start;
-            margin-top: -80vh;
-            margin-left: -75vw;
-            background: #EDFDFF;
-            border-radius: 312.159px;
-            transform: matrix(-0.2, 0.1, 0.1, 0.2, 0, 0);
-        }
-   
-
-.item0{
-text-decoration: none;
-font-family: 'Larsseit', sans-serif;
-font-size: 12px;}
-
-
-
-.article1{
-display: flex;
-justify-content: center;
-align-content: center;
-flex-direction: column;
-text-align: left;
-top: 330px;
-margin:100 0 10;
-padding: 100 0 10;
-font-family: 'Larsseit', sans-serif;
-font-size: 24px;
-line-height: 35px;
-
-color: #FFFFFF;
-}
-
-.img3{
-background: url(./assets/images/christopher-campbell-40367.png);
-}
-.article2{
-font-family: 'Larsseit', sans-serif;
-font-size: 24px;
-line-height: 34px;
-letter-spacing: 0.005em;
-color: #22356F;
-
-}
-.box1{
-background: #FFE2DE;
-}
-.box2{
-background: #C4E769;
-}
-.box3{
-background: #62D0DF;
-}
-.box4{
-background: #0052C1;
-}
-.circle1, .circle2, .circle3, .circle4{
-background: #E9B730;
-}
-.circle1{
-
-}
-.circle1{
-
-}
-.circle1{
-
-}
-.circle1{
-
-}
-.theme1, .theme2, .theme3, .theme4{
-font-family: 'Larsseit', sans-serif;
-font-size: 32px;
-line-height: 34px;
-letter-spacing: -0.006em;
-color: #FFFFFF;
-}
-.theme1{
-}
-.theme2{
-}
-.theme3{
-}
-.theme4{
-}*/
+    */
