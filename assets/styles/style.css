@@ -26,7 +26,7 @@ a{
 }
 .h1{ 
     display: flex;
-    justify-content: flex-start;
+    justify-content:start;
     align-items: flex-start;
     margin-bottom:25vh;
     margin-left: 9vw;
@@ -43,11 +43,12 @@ a{
     .h2__white{
         display: flex;
         flex-direction:row;
+        flex-wrap: nowrap;
         justify-content: flex-start;
         align-items: flex-start;
-        margin-top: 0vh;
-        margin-bottom: 30vh;
-        margin-left:10vw;
+        margin-top: -20vh;
+        margin-bottom: 35vh;
+        margin-left: 12vw;
         font-family: 'Larsseit', sans-serif;
         font-size: 2.5em;
         font-weight: bolder;
@@ -71,10 +72,12 @@ a{
 
     }
     .h4{
+        /*border: 2px solid red;*/
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     margin-left:3vw;
+    margin-bottom:25vh;
     /*
     margin-right: 2vw;*/
     font-family: 'Larsseit', sans-serif;
@@ -86,10 +89,11 @@ a{
     }
     .h5{  
         display:flex;
-        justify-content: center;
-        align-items: flex-end;
-        margin-left:1vw;
-        margin-top:5vh;
+        justify-content:flex-start;
+        align-items: center;
+        margin-left:-85vw;
+        margin-right: 20vw;
+        margin-bottom:10vh;
         font-family: 'Larsseit', sans-serif;
         font-size: 1.5em;
         line-height: 120%;
@@ -143,8 +147,8 @@ nav.menu {
     justify-content: flex-start;
     align-items: center;
     flex-wrap:wrap;
-    margin-top: -35vh;
-    margin-left: -9vw;
+    margin-top: -32vh;
+    margin-left: -6vw;
     margin-right: 0vw;
     font-family: 'Larsseit', sans-serif;
     font-size: 4em;
@@ -159,10 +163,10 @@ nav.menu {
         justify-content: flex-start;
         align-content: center;
         flex-direction: row;  
-        margin-top: 18vh;
+        margin-top: 19vh;
         margin-left: -30vw;
-        padding-right: 29vw;
-        padding-left: 1vw;
+        padding-right: 50vw;
+        padding-left: 11vw;
         font-family:'Larsseit', sans-serif;
         font-size: 2.5em;
         font-weight: normal;
@@ -259,10 +263,11 @@ nav.menu {
         align-items: flex-start;
         justify-content: center;
         margin-top:-50vh;
-        margin-left:10vw;
-        padding-right:10vw;
+        margin-left:4vw;
+        padding-right:39vw;
+        padding-left:10vw;
         font-family: 'Larsseit', sans-serif;
-        font-size: 2em;
+        font-size: 2.5em;
         line-height: 100%;
         letter-spacing: 0.005em;
         color: #22356F; 
@@ -271,6 +276,52 @@ nav.menu {
         display: flex;
         justify-content: flex-start;
         margin-right: 2vw;
+    }
+    .gridcontainer-footer{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(1,1fr);
+        grid-column: 1/4;
+        grid-row:1/4;
+        align-content: center;
+        justify-content: space-evenly;
+    
+    }
+    
+    .sec1{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        background: #FFE2DE;
+}
+    .sec2{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        background: #C4E769;
+    }
+    
+    .sec3{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        background: #62D0DF;
+    }
+    
+    .sec4{
+        grid-column: 4/5;
+        grid-row: 1/2;
+        background: #0052C1;
+    }
+    .sec1, .sec2, .sec3,.sec4{
+        font-family: 'Larsseit', sans-serif;
+        font-size: 2em;
+        line-height: 110%;
+        font-style: normal;
+        letter-spacing: -0.006em;
+        color: #ffffff;
+    }
+    .weight, .run, .pump-1, .pump-2{
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
     }
     .menu a:hover, .button__orange:hover, .contact:hover, .title__description-orange:hover{
             text-decoration: underline;
