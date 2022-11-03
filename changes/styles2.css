@@ -155,7 +155,8 @@ svg {
     align-items: center;
     flex-wrap:wrap;
     margin-top: -35%;
-    margin-left: -6vw;
+    margin-left: -6%;
+    margin-bottom: 2%;
     margin-right: 0vw;
     font-family: 'Larsseit', sans-serif;
     font-size: 4em;
@@ -171,9 +172,9 @@ svg {
         align-content: center;
         flex-direction: row;
         margin-top: 7%;
-        margin-left: -21%;
-        padding-right: 50vw;
-        padding-left: 1vw;
+        margin-left: -15%;
+        padding-right: 59%;
+        padding-left: 0;
         font-family:'Larsseit', sans-serif;
         font-size: 2.5em;
         font-weight: normal;
